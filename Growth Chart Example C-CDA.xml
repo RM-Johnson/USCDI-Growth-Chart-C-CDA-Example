@@ -37,7 +37,7 @@
                 </tbody>
             </table>
         </text>
-        <entry typeCode="DRIV">
+        <entry>
             <!-- The organizer is the Vital Sign Organizer defined in the C-CDA Implementation Guide -->
             <organizer classCode="CLUSTER" moodCode="EVN">
                 <templateId root="2.16.840.1.113883.10.20.22.4.26" />
