@@ -16,19 +16,19 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr styleCode="normRow">
+                    <tr>
                         <td>Body Mass Index Percentile</td>
                         <td ID="bmiPerc_1">50th</td>
                         <td>10/17/2018  4:10 PM CDT</td>
                         <td>CDC Males, 2-20 years BMI Percentile Chart</td>
                     </tr>
-                    <tr styleCode="altRow">
+                    <tr>
                         <td>Weight-for-length Percentile</td>
                         <td ID="WfLPerc_1">50th</td>
                         <td>10/17/2018  4:10 PM CDT</td>
                         <td>CDC Males, Birth - 36 Months Weight-for-length Chart</td>
                     </tr>
-                    <tr styleCode="normRow">
+                    <tr>
                         <td>Head Circumference Percentile</td>
                         <td ID="headCircPerc_1">50th</td>
                         <td>10/17/2018  4:10 PM CDT</td>
@@ -55,7 +55,7 @@
                     <observation classCode="OBS" moodCode="EVN">
                         <templateId root="2.16.840.1.113883.10.20.22.4.27" />
                         <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09" />
-                        <id extension="5610719400-pulse-Z197199" root="1.2.840.114350.1.13.861.1.7.1.2109.1" />
+                        <id extension="5610719400-BMIPerc-Z197199" root="1.2.840.114350.1.13.861.1.7.1.2109.1" />
                         <code code="59576-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index (BMI) [Percentile] Per age and sex">
                             <originalText>BMI Percentile</originalText>
                         </code>
