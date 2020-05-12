@@ -32,7 +32,7 @@
                         <td>Head Circumference Percentile</td>
                         <td ID="headCircPerc_1">50th</td>
                         <td>10/17/2018  4:10 PM CDT</td>
-                        <td>CDC Males, Birth - 36 Months CDC Head Circumference-for-age Chart</td>
+                        <td>CDC Males, Birth - 36 Months Head Circumference-for-age Chart</td>
                     </tr>
                 </tbody>
             </table>
@@ -69,10 +69,10 @@
                         <referenceRange>
                             <observationRange>
                                 
-                                <!-- Since Head Circumference Percentile is dependent on which Growth Chart is used to determine percentile, that is important to include.
-                                     This indicates that the patient was in the 50th percentile of head circumferences using the Males, Birth-36 Months CDC Head Circumference Growth Chart.
+                                <!-- Since BMI Percentile is dependent on which Growth Chart is used to determine percentile, that is important to include.
+                                     This indicates that the patient was in the 50th percentile of BMIs using the Males, 2-20 Years CDC BMI Percentile Growth Chart.
                                 -->
-                                <text>CDC Males, Birth - 36 Months CDC Head Circumference-for-age Chart</text>
+                                <text>Males, 2-20 Years CDC BMI Percentile Growth Chart</text>
                             </observationRange>
                         </referenceRange>
                     </observation>
@@ -97,10 +97,10 @@
                         <referenceRange>
                             <observationRange>
                                 
-                                <!-- Since Head Circumference Percentile is dependent on which Growth Chart is used to determine percentile, that is important to include.
-                                     This indicates that the patient was in the 50th percentile of head circumferences using the Males, Birth-36 Months CDC Head Circumference Growth Chart.
+                                <!-- Since Weight-for-length Percentile is dependent on which Growth Chart is used to determine percentile, that is important to include.
+                                     This indicates that the patient was in the 50th percentile of weight-for-lengths using the Males, Birth-36 Months CDC Weight-for-length Growth Chart.
                                 -->
-                                <text>CDC Males, Birth - 36 Months CDC Head Circumference-for-age Chart</text>
+                                <text>CDC Males, Birth-36 Months CDC Weight-for-length Growth Chart</text>
                             </observationRange>
                         </referenceRange>
                     </observation>
