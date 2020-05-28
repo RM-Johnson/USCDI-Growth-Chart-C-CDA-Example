@@ -26,7 +26,7 @@
                     <tr ID="WfLPerc_1">
                         <td>
                             <content ID="WfLPerc_1Name">Weight-for-length Percentile</content> 
-                            (<content ID="WfLPerc_1GC">CDC Males, Birth - 36 Months Chart</content>)
+                            (<content ID="WfLPerc_1GC">WHO Males, 0-2 years Chart</content>)
                         </td>
                         <td>50 %</td>
                         <td>05/20/2014 7:36 PM</td>
@@ -34,7 +34,7 @@
                     <tr ID="headCircPerc_1">
                         <td>
                             <content ID="headCircPerc_1Name">Head Circumference Percentile</content> 
-                            (<content ID="headCircPerc_1GC">CDC Males, Birth - 36 Months Chart</content>)
+                            (<content ID="headCircPerc_1GC">>WHO Males, 0-2 years Chart</content>)
                         </td>
                         <td>50 %</td>
                         <td>05/20/2014 7:36 PM</td>
@@ -109,7 +109,7 @@
                             <observationRange>
                                 
                                 <!-- Since Weight-for-length Percentile is dependent on which Growth Chart is used to determine percentile, that is important to include.
-                                     This indicates that the patient was in the 50th percentile of weight-for-lengths using the Males, Birth-36 Months CDC Weight-for-length Growth Chart.
+                                     This indicates that the patient was in the 50th percentile of weight-for-lengths using the Males, 0-2 years WHO Weight-for-length Growth Chart.
                                 -->
                                 <text>
                                     <reference value="#WfLPerc_1GC" />
@@ -141,7 +141,7 @@
                             <observationRange>
                                 
                                 <!-- Since Head Circumference Percentile is dependent on which Growth Chart is used to determine percentile, that is important to include.
-                                     This indicates that the patient was in the 50th percentile of head circumferences using the Males, Birth-36 Months CDC Head Circumference Growth Chart.
+                                     This indicates that the patient was in the 50th percentile of head circumferences using the Males, 0-2 years WHO Head Circumference Growth Chart.
                                 -->
                                 <text>
                                     <reference value="#headCircPerc_1GC" />
