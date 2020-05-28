@@ -16,17 +16,26 @@
                 </thead>
                 <tbody>
                     <tr ID="bmiPerc_1">
-                        <td>Body Mass Index Percentile (CDC Males, 2-20 years Chart)</td>
+                        <td>
+                            <content ID="bmiPerc_1Name">Body Mass Index Percentile</content> 
+                            (<content ID="bmiPerc_1GC">CDC Males, 2-20 years Chart</content>)
+                        </td>
                         <td>50 %</td>
                         <td>05/20/2014 7:36 PM</td>
                     </tr>
                     <tr ID="WfLPerc_1">
-                        <td>Weight-for-length Percentile (CDC Males, Birth - 36 Months Chart)</td>
+                        <td>
+                            <content ID="WfLPerc_1Name">Weight-for-length Percentile</content> 
+                            (<content ID="WfLPerc_1GC">CDC Males, Birth - 36 Months Chart</content>)
+                        </td>
                         <td>50 %</td>
                         <td>05/20/2014 7:36 PM</td>
                     </tr>
                     <tr ID="headCircPerc_1">
-                        <td>Head Circumference Percentile (CDC Males, Birth - 36 Months Chart)</td>
+                        <td>
+                            <content ID="headCircPerc_1Name">Head Circumference Percentile</content> 
+                            (<content ID="headCircPerc_1GC">CDC Males, Birth - 36 Months Chart</content>)
+                        </td>
                         <td>50 %</td>
                         <td>05/20/2014 7:36 PM</td>
                     </tr>
@@ -53,7 +62,9 @@
                         <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09" />
                         <id extension="5610719400-BMIPerc-Z197199" root="1.2.840.114350.1.13.861.1.7.1.2109.1" />
                         <code code="59576-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body mass index (BMI) [Percentile] Per age and sex">
-                            <originalText>BMI Percentile</originalText>
+                            <originalText>
+                                <reference value="#bmiPerc_1Name"/>
+                            </originalText>
                         </code>
                         <!-- This reference identifies content in human readable formatted text-->
                         <text>
@@ -61,14 +72,16 @@
                         </text>
                         <statusCode code="completed" />
                         <effectiveTime value="20140520193605-0600" />
-                        <value xsi:type="PQ" unit="%" value="50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+                        <value xsi:type="PQ" unit="%" value="50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
                         <referenceRange>
                             <observationRange>
                                 
                                 <!-- Since BMI Percentile is dependent on which Growth Chart is used to determine percentile, that is important to include.
                                      This indicates that the patient was in the 50th percentile of BMIs using the Males, 2-20 Years CDC BMI Percentile Growth Chart.
                                 -->
-                                <text>CDC Males, 2-20 years Chart</text>
+                                <text>
+                                    <reference value="#bmiPerc_1GC" />
+                                </text>
                             </observationRange>
                         </referenceRange>
                     </observation>
@@ -81,7 +94,9 @@
                         <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09" />
                         <id extension="5610719400-WfLPerc-Z197199" root="1.2.840.114350.1.13.861.1.7.1.2109.1" />
                         <code code="77606-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Weight-for-length Per age and sex">
-                            <originalText>Weight-for-length Percentile</originalText>
+                            <originalText>
+                                <reference value="#WfLPerc_1Name"/>
+                            </originalText>
                         </code>
                         <!-- This reference identifies content in human readable formatted text-->
                         <text>
@@ -89,14 +104,16 @@
                         </text>
                         <statusCode code="completed" />
                         <effectiveTime value="20140520193605-0600" />
-                        <value xsi:type="PQ" unit="%" value="50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+                        <value xsi:type="PQ" unit="%" value="50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
                         <referenceRange>
                             <observationRange>
                                 
                                 <!-- Since Weight-for-length Percentile is dependent on which Growth Chart is used to determine percentile, that is important to include.
                                      This indicates that the patient was in the 50th percentile of weight-for-lengths using the Males, Birth-36 Months CDC Weight-for-length Growth Chart.
                                 -->
-                                <text>CDC Males, Birth - 36 Months Chart</text>
+                                <text>
+                                    <reference value="#WfLPerc_1GC" />
+                                </text>
                             </observationRange>
                         </referenceRange>
                     </observation>
@@ -109,7 +126,9 @@
                         <templateId root="2.16.840.1.113883.10.20.22.4.27" extension="2014-06-09" />
                         <id extension="5610719400-headCirPerc-Z197199" root="1.2.840.114350.1.13.861.1.7.1.2109.1" />
                         <code code="8289-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Head Occipital-frontal circumference Percentile">
-                            <originalText>Head Circumference Percentile</originalText>
+                            <originalText>
+                                <reference value="#headCircPerc_1Name"/>
+                            </originalText>
                         </code>
                         <!-- This reference identifies content in human readable formatted text-->
                         <text>
@@ -117,14 +136,16 @@
                         </text>
                         <statusCode code="completed" />
                         <effectiveTime value="20140520193605-0600" />
-                        <value xsi:type="PQ" unit="%" value="50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
+                        <value xsi:type="PQ" unit="%" value="50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
                         <referenceRange>
                             <observationRange>
                                 
                                 <!-- Since Head Circumference Percentile is dependent on which Growth Chart is used to determine percentile, that is important to include.
                                      This indicates that the patient was in the 50th percentile of head circumferences using the Males, Birth-36 Months CDC Head Circumference Growth Chart.
                                 -->
-                                <text>CDC Males, Birth - 36 Months Chart</text>
+                                <text>
+                                    <reference value="#headCircPerc_1GC" />
+                                </text>
                             </observationRange>
                         </referenceRange>
                     </observation>
