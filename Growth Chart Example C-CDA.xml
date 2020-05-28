@@ -34,7 +34,7 @@
                     <tr ID="headCircPerc_1">
                         <td>
                             <content ID="headCircPerc_1Name">Head Circumference Percentile</content> 
-                            (<content ID="headCircPerc_1GC">>WHO Males, 0-2 years Chart</content>)
+                            (<content ID="headCircPerc_1GC">WHO Males, 0-2 years Chart</content>)
                         </td>
                         <td>50 %</td>
                         <td>05/20/2014 7:36 PM</td>
