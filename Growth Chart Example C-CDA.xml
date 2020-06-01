@@ -107,7 +107,7 @@
                             <observationRange>
                                 
                                 <!-- Since Weight-for-length Percentile is dependent on which Growth Chart is used to determine percentile, that is important to include.
-                                     This indicates that the patient was in the 50th percentile of weight-for-lengths using the Males, 2-20 years WHO Weight-for-length Growth Chart.
+                                     This indicates that the patient was in the 50th percentile of weight-for-lengths using the Males, 0-2 years WHO Weight-for-length Growth Chart.
                                 -->
                                 <text>
                                     <reference value="#WfLPerc_1GC" />
@@ -139,7 +139,7 @@
                             <observationRange>
                                 
                                 <!-- Since Head Circumference Percentile is dependent on which Growth Chart is used to determine percentile, that is important to include.
-                                     This indicates that the patient was in the 50th percentile of head circumferences using the Males, 0-2 years WHO Head Circumference Growth Chart.
+                                     This indicates that the patient was in the 45th percentile of head circumferences using the Males, 0-2 years WHO Head Circumference Growth Chart.
                                 -->
                                 <text>
                                     <reference value="#headCircPerc_1GC" />
@@ -191,7 +191,7 @@
                             <observationRange>
                                 
                                 <!-- Since BMI Percentile is dependent on which Growth Chart is used to determine percentile, that is important to include.
-                                     This indicates that the patient was in the 50th percentile of BMIs using the Males, 2-20 Years CDC BMI Percentile Growth Chart.
+                                     This indicates that the patient was in the 49th percentile of BMIs using the Males, 2-20 Years CDC BMI Percentile Growth Chart.
                                 -->
                                 <text>
                                     <reference value="#bmiPerc_2GC" />
@@ -223,7 +223,7 @@
                             <observationRange>
                                 
                                 <!-- Since Weight-for-length Percentile is dependent on which Growth Chart is used to determine percentile, that is important to include.
-                                     This indicates that the patient was in the 50th percentile of weight-for-lengths using the Males, 0-2 years WHO Weight-for-length Growth Chart.
+                                     This indicates that the patient was in the 48th percentile of weight-for-lengths using the Males, 2-20 Years CDC Weight-for-length Growth Chart.
                                 -->
                                 <text>
                                     <reference value="#WfLPerc_2GC" />
@@ -255,7 +255,7 @@
                             <observationRange>
                                 
                                 <!-- Since Head Circumference Percentile is dependent on which Growth Chart is used to determine percentile, that is important to include.
-                                     This indicates that the patient was in the 50th percentile of head circumferences using the Males, 0-2 years WHO Head Circumference Growth Chart.
+                                     This indicates that the patient was in the 50th percentile of head circumferences using the Males, 2-20 Years CDC Head Circumference Growth Chart.
                                 -->
                                 <text>
                                     <reference value="#headCircPerc_2GC" />
