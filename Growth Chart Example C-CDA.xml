@@ -72,6 +72,8 @@
             <!-- The organizer is the Vital Sign Organizer defined in the C-CDA Implementation Guide and represents 
                  the vitals taken at the same time - when the patient was around 1 year old. These observations all use the WHO Males, 0-2 years 
                  growth chart.
+            This example omits Provenance for brevity.
+
             -->
             <organizer classCode="CLUSTER" moodCode="EVN">
                 <templateId root="2.16.840.1.113883.10.20.22.4.26" />
@@ -109,9 +111,11 @@
                                 <!-- Since Weight-for-length Percentile is dependent on which Growth Chart is used to determine percentile, that is important to include.
                                      This indicates that the patient was in the 50th percentile of weight-for-lengths using the Males, 0-2 years WHO Weight-for-length Growth Chart.
                                 -->
+                                <!-- If future LOINC codes are assigned for specific growth charts it may affect value/@code and other places  -->
                                 <text>
                                     <reference value="#WfLPerc_1GC" />
                                 </text>
+                                <value xsi:type="ED"><reference value="#WfLPerc_1GC"/></value>
                             </observationRange>
                         </referenceRange>
                     </observation>
@@ -144,6 +148,7 @@
                                 <text>
                                     <reference value="#headCircPerc_1GC" />
                                 </text>
+                                <value xsi:type="ED"><reference value="#headCircPerc_1GC"/></value>
                             </observationRange>
                         </referenceRange>
                     </observation>
@@ -196,6 +201,7 @@
                                 <text>
                                     <reference value="#bmiPerc_2GC" />
                                 </text>
+                                <value xsi:type="ED"><reference value="#bmiPerc_2GC"/></value>
                             </observationRange>
                         </referenceRange>
                     </observation>
@@ -228,6 +234,7 @@
                                 <text>
                                     <reference value="#WfLPerc_2GC" />
                                 </text>
+                                <value xsi:type="ED"><reference value="#WfLPerc_2GC"/></value>
                             </observationRange>
                         </referenceRange>
                     </observation>
@@ -260,6 +267,7 @@
                                 <text>
                                     <reference value="#headCircPerc_2GC" />
                                 </text>
+                                <value xsi:type="ED"><reference value="#headCircPerc_2GC"/></value>
                             </observationRange>
                         </referenceRange>
                     </observation>
