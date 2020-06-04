@@ -70,7 +70,7 @@
         </text>
         <entry>
             <!-- The organizer is the Vital Sign Organizer defined in the C-CDA Implementation Guide and represents 
-                 the vitals taken at the same time - when the patient was around 1 year old. These observations all use the CDC Males, 2-20 years 
+                 the vitals taken at the same time - when the patient was around 1 year old. These observations all use the WHO Males, 0-2 years 
                  growth chart.
             -->
             <organizer classCode="CLUSTER" moodCode="EVN">
