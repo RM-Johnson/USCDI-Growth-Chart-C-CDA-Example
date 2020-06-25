@@ -39,7 +39,9 @@
                     
                     <!-- These 3 rows are for vitals taken when the patient was around 2.5 years old
                          At this time, when the patient is a 2.5 year old male, they fall into the recommendation of 
-                         using the CDC 2-20 years charts.
+                         using the CDC 2-20 years charts. However, Head circumference is not in the the CDC 2-20 years charts, 
+                         so the CDC 0-36 months chart should be used for patients 24-36 months old (note that when the patient is 0-2 years
+                         old WHO 0-2 years chart should be used).
                     -->
                     <tr ID="bmiPerc_2">
                         <td>
@@ -60,7 +62,7 @@
                     <tr ID="headCircPerc_2">
                         <td>
                             <content ID="headCircPerc_2Name">Head Circumference Percentile</content> 
-                            (<content ID="headCircPerc_2GC">CDC Males, 2-20 years Chart</content>)
+                            (<content ID="headCircPerc_2GC">CDC Males, 0-36 months Chart</content>)
                         </td>
                         <td>50 %</td>
                         <td>11/20/2015 7:36 PM</td>
@@ -161,7 +163,7 @@
                  This is when the patient is about 2.5 years of age. At this point, the recommendation from CDC would be to use the following growth charts
                     - Weight for Length - CDC 2-20 year old charts
                     - BMI Percentile - CDC 2-20 year old charts
-                    - Head Circumference - CDC 2-20 year old charts
+                    - Head Circumference - CDC Males, 0-36 months Chart
             -->
             <organizer classCode="CLUSTER" moodCode="EVN">
                 <templateId root="2.16.840.1.113883.10.20.22.4.26" />
@@ -262,7 +264,7 @@
                             <observationRange>
                                 
                                 <!-- Since Head Circumference Percentile is dependent on which Growth Chart is used to determine percentile, that is important to include.
-                                     This indicates that the patient was in the 50th percentile of head circumferences using the Males, 2-20 Years CDC Head Circumference Growth Chart.
+                                     This indicates that the patient was in the 50th percentile of head circumferences using the CDC Males, 0-36 months Chart Head Circumference Growth Chart.
                                 -->
                                 <text>
                                     <reference value="#headCircPerc_2GC" />
