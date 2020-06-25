@@ -39,8 +39,8 @@
                     
                     <!-- These 3 rows are for vitals taken when the patient was around 2.5 years old
                          At this time, when the patient is a 2.5 year old male, they fall into the recommendation of 
-                         using the CDC 2-20 years charts. However, Head circumference is not in the the CDC 2-20 years charts, 
-                         so the CDC 0-36 months chart should be used for patients 24-36 months old (note that when the patient is 0-2 years
+                         using the CDC 2-20 years charts. However, Head circumference percentile is not in the the CDC 2-20 years charts. 
+                         For Head circumference percentile, the CDC 0-36 months chart should be used for patients 24-36 months old (note that when the patient is 0-2 years
                          old WHO 0-2 years chart should be used).
                     -->
                     <tr ID="bmiPerc_2">
